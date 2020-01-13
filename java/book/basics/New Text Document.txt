@@ -1,0 +1,14 @@
+public class G
+{
+	public static void main(String[] args)
+	{
+		test();
+		System.out.println("done");
+
+	}
+	public static void test()
+	{
+		System.out.println(1);
+		return;
+	}
+}

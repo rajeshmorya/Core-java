@@ -1,0 +1,17 @@
+class A
+{
+    public static void display()
+    {
+        System.out.println("Inside static method of superclass");
+    }
+}
+
+class B extends A
+{
+    public void show()
+    {
+        // This works - accessing display() by its simple name -
+        // meaning it is inherited according to the book.
+        display();
+    }
+}
